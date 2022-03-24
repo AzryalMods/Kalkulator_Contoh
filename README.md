@@ -1,5 +1,5 @@
 # Perkalian_Contoh
 
-This Proggram From 
+This Program/Code From 
 
 https://jagongoding.com/python/latihan-logika/kalkulator-sederhana/
