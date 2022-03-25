@@ -1,17 +1,20 @@
+#tahap pertama
 print('=' * 25)
 print('Operasi Matematika')
-print('  1. Jumlah \t [+]')
-print('  2. Kurang \t [-]')
-print('  3. Kali \t [*]')
-print('  4. Bagi \t [/]')
+print('  1. Jumlah  \t [+]')
+print('  2. Kurang  \t [-]')
+print('  3. Kali    \t [*]')
+print('  4. Bagi    \t [/]')
 print('=' * 25)
 
+#tahap kedua
 operasi = input('Pilih operasi (1/2/3/4): ')
 bilangan_1 = eval(input('Masukkan bilangan pertama: '))
 bilangan_2 = eval(input('Masukkan bilangan kedua: '))
 
 print('=' * 25)
 
+#tahap ketiga
 if operasi == '1':
   print('User memilih penjumlahan')
 elif operasi == '2':
@@ -23,6 +26,7 @@ elif operasi == '4':
 else:
   print('Tidak valid')
 
+#tahap keempat
 if operasi == '1':
   hasil = bilangan_1 + bilangan_2
   print(f'Hasil operasi dari {bilangan_1} + {bilangan_2} = {hasil}')
